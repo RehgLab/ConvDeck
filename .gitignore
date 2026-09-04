@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+camel*
+
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# Pipeline outputs (regenerated per run)
+contents*/
+rst_outputs*/
+scripts*/
+*_images_and_tables/
+tmp/
+
+# Dataset PDFs (too large for git)
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large binary / generated files
+*.pptx.bak
+.gradio/
+
+#test-folders
+inputs*
+*.json
+node_modules*
+slide_preview*
+app_old.py
+
+# additional repos
+src*
+tests*
+gen_benchmark_results.py
+run_benchmarks.sh
+push_to_hf.py
+*.outputs
+*.txt
+*.sh
+*.out
+.claude/skills/paperclip*
